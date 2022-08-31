@@ -1,8 +1,9 @@
-.title{
-    color: hotpink;
-    width: 310px;
-    height: 50px;
-    background-color: teal;
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    background-color: #041562;
 }
 
 #seleccionar-mascota{
@@ -13,15 +14,37 @@
     align-items: center;
 }
 
+.title{
+    color: white;
+    font-size: 32px;
+}
+
+.subtitulo{
+    color: white;
+    font-size: 20px;
+}
+
+
+.tarjetas{
+    display: flex;
+    gap: 10px;
+}
+
 .tarjeta-de-mokepon{
-    width: 100px;
+    color: white;
+    width: 180px;
     height: 100px;
-    background-color: aquamarine;
+    background-color: #11468F;
     padding: 10px;
     box-sizing: border-box;
-    margin: 10px;
-    border: 1px solid hotpink;
-    border-radius: 5px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta-de-mokepon img{
+    width: 80px;
 }
 
 .boton{
@@ -31,8 +54,9 @@
     border: 1px solid  #6BF201;
     padding: 10px;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 .boton:hover{
-    box-shadow: -4px 9px 8px -3px rgba(117,117,117,1);
+    box-shadow: -4px 9px 8px -3px rgb(14, 14, 14);
 }
