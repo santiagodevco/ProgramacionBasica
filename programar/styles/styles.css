@@ -65,6 +65,10 @@ input{
     display: none;
 }
 
+input:checked + label{
+    background-color: red;
+}
+
 /*Seleccionar ataque */
 #seleccionar-ataque{
     height: 100vh;
