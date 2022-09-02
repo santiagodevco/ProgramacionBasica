@@ -60,3 +60,9 @@ body{
 .boton:hover{
     box-shadow: -4px 9px 8px -3px rgb(14, 14, 14);
 }
+
+input{
+    display: none;
+}
+
+/*Seleccionar ataque */
