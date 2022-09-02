@@ -66,3 +66,11 @@ input{
 }
 
 /*Seleccionar ataque */
+#seleccionar-ataque{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
