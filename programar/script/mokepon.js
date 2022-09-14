@@ -193,10 +193,22 @@ function ataqueAleatorioEnemigo() {
         ataqueEnemigo.push('TIERRA') 
     }
     console.log(ataqueEnemigo)
-    combate()
+    iniciarPelea()
+}
+
+function iniciarPelea(){
+    if(ataqueJugador.length == 5){
+        combate()
+    }
 }
 
 function combate() {
+
+    for(let index = 0; index < ataqueJugador.length; index++){
+        if(ataqueJugador[index] === ataqueEnemigo[index]){
+
+        }
+    }
     
     if(ataqueEnemigo == ataqueJugador) {
         crearMensaje("EMPATE")
